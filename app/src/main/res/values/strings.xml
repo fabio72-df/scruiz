@@ -1,0 +1,50 @@
+<resources>
+    <!-- Rótulos -->
+    <string name="app_name">Scruiz</string>
+    <string name="title_principal1">Scrum</string>
+    <string name="title_principal2">Teste\nseus\nConhecimentos</string>
+    <string name="title_iniciar_teste">Iniciar\nTeste</string>
+    <string name="title_login">Login/Logout</string>
+    <string name="title_sobre">Sobre</string>
+    <string name="title_ranking">Ranking</string>
+    <string name="title_activity_login">SCRUIZ - Login / Logout</string>
+
+    <string name="title_questao_nr">Questão nº:</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha (mín.6 caracteres)</string>
+
+    <!-- AÇÕES -->
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_out">Logout</string>
+    <string name="action_sign_in_cadastrar">Cadastrar-me</string>
+    <string name="action_sign_in_google">Google</string>
+    <string name="action_sign_in_email">E-mail</string>
+    <string name="action_sign_in_esqueci">Esqueci a senha</string>
+
+    <!-- ERROS -->
+    <string name="error_invalid_email">E-mail inválido</string>
+    <string name="error_invalid_password">Senha muito curta (mín.4 caracteres)</string>
+    <string name="error_incorrect_password">Senha inválida!</string>
+    <string name="error_login_usuario_nao_cadastrado">Usuário não cadastrado!</string>
+    <string name="error_login_usuario_ja_cadastrado">Usuário já cadastrado!</string>
+    <string name="error_login_generico">Login falhou!</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="loading">processando...</string>
+
+
+    <string name="emailpassword_status_fmt">Usuário: %1$s (%2$s)</string>
+    <string name="signed_out"></string>
+    <string name="logar_como_anonimo">Logar como \'anônimo\'</string>
+
+    <!-- **** SOBRE **** -->
+    <string name="scruiz">SCRUIZ</string>
+    <string name="versao"><b>Versão:</b> 1.04 (10/05/2018)</string>
+    <string name="desenvolvedor"><b>Desenvolvedor:</b> Fábio Carvalho</string>
+    <string name="app_descricao"><b>Descrição:</b> O app trata-se de um <i>quiz</i> sobre o <i>framework</i> SCRUM. O objetivo é disseminar informações relativas a esta metodologia de trabalho, criada para resolução de \"problemas complexos e adaptativos.\"</string>
+
+    <!-- *** MATERIAL DESIGN - CODECANYON -->
+    <string name="material_icon_play_square">&#xea7a;</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iniciar_teste"
+        android:icon="@drawable/ic_iniciar_teste"
+        android:title="@string/title_iniciar_teste" />
+
+    <item
+        android:id="@+id/login"
+        android:icon="@drawable/ic_action_name"
+        android:title="@string/title_login" />
+
+    <item
+        android:id="@+id/sobre"
+        android:icon="@drawable/ic_ranking"
+        android:enabled="true"
+        android:title="@string/title_ranking" />
+
+</menu>

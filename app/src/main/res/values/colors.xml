@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#fff589</color>
+    <color name="colorPrimaryDark">#cac259</color>
+    <color name="colorAccent">#ffffbb</color>
+
+    <color name="primaryTextColor">#000000</color>
+
+    <color name="fundo_pergunta">#f8f3bc</color>
+    <color name="branco">#ffffff</color>
+
+
+    <!-- MATERIAL DESIGN - CODECANYON -->
+    <color name="material_grey_300">#e0e0e0</color>
+    <color name="material_red_500">#ef4437</color>
+
+</resources>
+
+<!--
+<resources>
+<color name="primaryColor">#fff589</color>
+<color name="primaryLightColor">#ffffbb</color>
+<color name="primaryDarkColor">#cac259</color>
+<color name="primaryTextColor">#000000</color>
+</resources> -->
+
+
+<!-- ORIGINAL -->
+<!--
+<color name="colorPrimary">#3f51b5</color>
+<color name="colorPrimaryDark">#303f9f</color>
+<color name="colorAccent">#40d2ff</color> -->

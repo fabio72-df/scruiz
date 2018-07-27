@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../AnimatedExpandableListView" />
+            <option value="$PROJECT_DIR$/../CircularProgressButton" />
+            <option value="$PROJECT_DIR$/../FloatLabeledTextField" />
+            <option value="$PROJECT_DIR$/../KenBurnsView" />
+            <option value="$PROJECT_DIR$/../ListViewAnimations-core" />
+            <option value="$PROJECT_DIR$/../ListViewAnimations-core-slh" />
+            <option value="$PROJECT_DIR$/../ListViewAnimations-manipulation" />
+            <option value="$PROJECT_DIR$/../MaterialRippleLayout" />
+            <option value="$PROJECT_DIR$/../NotBoringActionBar" />
+            <option value="$PROJECT_DIR$/../ProgressWheel" />
+            <option value="$PROJECT_DIR$/../PullZoomView" />
+            <option value="$PROJECT_DIR$/../ShapeImageView" />
+            <option value="$PROJECT_DIR$/../StickyListHeaders" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../android-support-v7-appcompat" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

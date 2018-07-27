@@ -1,0 +1,745 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:2:1-176:12
+MERGED from [:StickyListHeaders] C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\837484139eee5c0c58ae2e16c4947951\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\acc21e75fdc335b6a481121c9d4c28c1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9f5869bfc0b63e579f8c2078ebefdbda\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9c0d934ed9ab4a91703fe9eacc0ab89\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\1814f936f0843e32b72b8596ce23166a\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a3a0f6cebcb3099756d0373d4278d8ce\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\80e54a3100f1f01512855a9f4f6ab034\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\b9d93136c8db13c7c3d0d349b62bf4b2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\dbd243693200ac79513be70bcebfa1cc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\afee0f442fe6535a48aca7af3abe7fd4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\328630e22a2ca9ca529c68b9c86b66b4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1ce6ea79d92b4dc63ed3ea9ebb5e565d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5dfa2f68eb264b09c1b2821c8c1081cf\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c625205ef51fe42dbf7fd0c4a8645998\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d3db6f55b6e65ea00e45e240ede6b63f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\46be73304b9bab5c83c4f222542d5e53\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\6504f3114b932b2e7b6db4724ab44de6\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7de36a96b219421a4c3f4eb637f9156e\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:2:1-176:12
+	package
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:4:5-47
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:6:5-32
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:14:22-64
+application
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:17:5-174:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\837484139eee5c0c58ae2e16c4947951\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\837484139eee5c0c58ae2e16c4947951\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\acc21e75fdc335b6a481121c9d4c28c1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\acc21e75fdc335b6a481121c9d4c28c1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9f5869bfc0b63e579f8c2078ebefdbda\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9f5869bfc0b63e579f8c2078ebefdbda\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9c0d934ed9ab4a91703fe9eacc0ab89\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9c0d934ed9ab4a91703fe9eacc0ab89\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\1814f936f0843e32b72b8596ce23166a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\1814f936f0843e32b72b8596ce23166a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a3a0f6cebcb3099756d0373d4278d8ce\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a3a0f6cebcb3099756d0373d4278d8ce\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\80e54a3100f1f01512855a9f4f6ab034\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\80e54a3100f1f01512855a9f4f6ab034\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\b9d93136c8db13c7c3d0d349b62bf4b2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\b9d93136c8db13c7c3d0d349b62bf4b2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\dbd243693200ac79513be70bcebfa1cc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\dbd243693200ac79513be70bcebfa1cc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\afee0f442fe6535a48aca7af3abe7fd4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\afee0f442fe6535a48aca7af3abe7fd4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\328630e22a2ca9ca529c68b9c86b66b4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\328630e22a2ca9ca529c68b9c86b66b4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1ce6ea79d92b4dc63ed3ea9ebb5e565d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1ce6ea79d92b4dc63ed3ea9ebb5e565d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5dfa2f68eb264b09c1b2821c8c1081cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5dfa2f68eb264b09c1b2821c8c1081cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c625205ef51fe42dbf7fd0c4a8645998\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c625205ef51fe42dbf7fd0c4a8645998\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d3db6f55b6e65ea00e45e240ede6b63f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d3db6f55b6e65ea00e45e240ede6b63f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\46be73304b9bab5c83c4f222542d5e53\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\46be73304b9bab5c83c4f222542d5e53\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\6504f3114b932b2e7b6db4724ab44de6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\6504f3114b932b2e7b6db4724ab44de6\AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7de36a96b219421a4c3f4eb637f9156e\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7de36a96b219421a4c3f4eb637f9156e\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:19:9-45
+	android:allowBackup
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:21:9-40
+activity#com.csform.android.uiapptemplate.MainActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:22:9-31:20
+	android:label
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:24:13-45
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:29:27-74
+activity#com.csform.android.uiapptemplate.ParallaxKenBurnsActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:32:9-34:55
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:34:13-52
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:33:13-53
+activity#com.csform.android.uiapptemplate.ParallaxActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:35:9-54
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:35:19-51
+activity#com.csform.android.uiapptemplate.ParallaxTravelActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:36:9-60
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:36:19-57
+activity#com.csform.android.uiapptemplate.ParallaxSocialActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:37:9-60
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:37:19-57
+activity#com.csform.android.uiapptemplate.ParallaxMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:38:9-59
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:38:19-56
+activity#com.csform.android.uiapptemplate.ParallaxShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:39:9-58
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:39:19-55
+activity#com.csform.android.uiapptemplate.ImageGalleryCategoryActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:40:9-42:56
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:42:13-53
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:41:13-57
+activity#com.csform.android.uiapptemplate.ImageGallerySubcategoryActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:43:9-45:56
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:45:13-53
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:44:13-60
+activity#com.csform.android.uiapptemplate.LogInPageActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:46:9-48:52
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:47:13-46
+activity#com.csform.android.uiapptemplate.RegisterPageActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:50:13-49
+activity#com.csform.android.uiapptemplate.RegisterShopPageActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:53:13-53
+activity#com.csform.android.uiapptemplate.SplashScreensActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:55:9-59
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:55:19-56
+activity#com.csform.android.uiapptemplate.ListViewsActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:56:9-55
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:56:19-52
+activity#com.csform.android.uiapptemplate.LeftMenusActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:57:9-59:59
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:59:13-56
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:58:13-46
+activity#com.csform.android.uiapptemplate.LeftMenusTravelActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:60:9-62:59
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:61:13-52
+activity#com.csform.android.uiapptemplate.LeftMenusSocialActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:63:9-65:59
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:64:13-52
+activity#com.csform.android.uiapptemplate.LeftMenusMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:66:9-68:59
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:68:13-56
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:67:13-51
+activity#com.csform.android.uiapptemplate.LeftMenusShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:69:9-71:59
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:71:13-56
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:70:13-50
+activity#com.csform.android.uiapptemplate.SearchBarsActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:73:9-56
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:73:19-53
+activity#com.csform.android.uiapptemplate.SearchBarShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:74:9-76:57
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:76:13-54
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:75:13-50
+activity#com.csform.android.uiapptemplate.SearchBarMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:77:9-79:57
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:79:13-54
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:78:13-51
+activity#com.csform.android.uiapptemplate.CategoriesListViewActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:80:9-64
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:80:19-61
+activity#com.csform.android.uiapptemplate.DragAndDropSocialActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:81:9-63
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:81:19-60
+activity#com.csform.android.uiapptemplate.DragAndDropMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:82:9-62
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:82:19-59
+activity#com.csform.android.uiapptemplate.DragAndDropShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:83:9-61
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:83:19-58
+activity#com.csform.android.uiapptemplate.DragAndDropTravelActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:84:9-63
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:84:19-60
+activity#com.csform.android.uiapptemplate.SwipToDissmissListViewActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:85:9-68
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:85:19-65
+activity#com.csform.android.uiapptemplate.SwipToDissmissMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:86:9-65
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:86:19-62
+activity#com.csform.android.uiapptemplate.SwipToDissmissShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:87:9-64
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:87:19-61
+activity#com.csform.android.uiapptemplate.GoogleCardsActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:88:9-57
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:88:19-54
+activity#com.csform.android.uiapptemplate.GoogleCardsTravelActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:89:9-63
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:89:19-60
+activity#com.csform.android.uiapptemplate.GoogleCardsMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:90:9-62
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:90:19-59
+activity#com.csform.android.uiapptemplate.GoogleCardsShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:91:9-61
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:91:19-58
+activity#com.csform.android.uiapptemplate.GoogleCardsSocialActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:92:9-63
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:92:19-60
+activity#com.csform.android.uiapptemplate.ExpandableListViewActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:93:9-64
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:93:19-61
+activity#com.csform.android.uiapptemplate.ExpandableMediaListViewActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:94:9-69
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:94:19-66
+activity#com.csform.android.uiapptemplate.ExpandableSocialListViewActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:95:9-70
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:95:19-67
+activity#com.csform.android.uiapptemplate.ExpandableTravelListViewActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:96:9-70
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:96:19-67
+activity#com.csform.android.uiapptemplate.ExpandableShopListViewActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:97:9-68
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:97:19-65
+activity#com.csform.android.uiapptemplate.StickyListHeadersActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:98:9-63
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:98:19-60
+activity#com.csform.android.uiapptemplate.DialogUniversalInfoActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:99:9-65
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:99:19-62
+activity#com.csform.android.uiapptemplate.DialogMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:100:9-57
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:100:19-54
+activity#com.csform.android.uiapptemplate.DialogTravelActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:101:9-58
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:101:19-55
+activity#com.csform.android.uiapptemplate.DialogShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:102:9-56
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:102:19-53
+activity#com.csform.android.uiapptemplate.DialogSocialActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:103:9-58
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:103:19-55
+activity#com.csform.android.uiapptemplate.DialogUniversalWarningActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:105:9-68
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:105:19-65
+activity#com.csform.android.uiapptemplate.WizardTravelActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:107:9-111:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:109:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:111:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:110:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:108:13-49
+activity#com.csform.android.uiapptemplate.WizardMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:112:9-116:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:114:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:116:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:115:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:113:13-48
+activity#com.csform.android.uiapptemplate.WizardShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:117:9-121:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:119:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:121:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:120:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:118:13-47
+activity#com.csform.android.uiapptemplate.WizardSocialActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:122:9-126:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:124:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:126:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:125:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:123:13-49
+activity#com.csform.android.uiapptemplate.WizardUniversalActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:127:9-131:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:129:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:131:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:130:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:128:13-52
+activity#com.csform.android.uiapptemplate.TabMediaActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:132:9-136:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:134:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:136:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:135:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:133:13-45
+activity#com.csform.android.uiapptemplate.TabShopActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:137:9-141:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:139:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:141:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:140:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:138:13-44
+activity#com.csform.android.uiapptemplate.TabSocialActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:142:9-146:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:144:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:146:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:145:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:143:13-46
+activity#com.csform.android.uiapptemplate.TabTravelActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:147:9-151:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:149:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:151:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:150:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:148:13-46
+activity#com.csform.android.uiapptemplate.TabUniversalActivity
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:152:9-156:70
+	android:screenOrientation
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:154:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:156:13-67
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:155:13-48
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:153:13-49
+activity#com.csform.android.uiapptemplate.SubscribeDialog
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:157:9-160:20
+	android:theme
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:159:13-49
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:158:13-44
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:161:9-163:62
+	android:resource
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:163:13-59
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:162:13-83
+service#com.csform.android.uiapptemplate.MyFirebaseMessagingService
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:164:9-169:19
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:165:13-55
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:166:13-168:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:167:17-77
+	android:name
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml:167:25-75
+uses-sdk
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+MERGED from [:StickyListHeaders] C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-14:41
+MERGED from [:StickyListHeaders] C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\837484139eee5c0c58ae2e16c4947951\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\837484139eee5c0c58ae2e16c4947951\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\acc21e75fdc335b6a481121c9d4c28c1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\acc21e75fdc335b6a481121c9d4c28c1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9f5869bfc0b63e579f8c2078ebefdbda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9f5869bfc0b63e579f8c2078ebefdbda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9c0d934ed9ab4a91703fe9eacc0ab89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9c0d934ed9ab4a91703fe9eacc0ab89\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\1814f936f0843e32b72b8596ce23166a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\1814f936f0843e32b72b8596ce23166a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a3a0f6cebcb3099756d0373d4278d8ce\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\a3a0f6cebcb3099756d0373d4278d8ce\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\80e54a3100f1f01512855a9f4f6ab034\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\80e54a3100f1f01512855a9f4f6ab034\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\b9d93136c8db13c7c3d0d349b62bf4b2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\b9d93136c8db13c7c3d0d349b62bf4b2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\dbd243693200ac79513be70bcebfa1cc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\dbd243693200ac79513be70bcebfa1cc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\afee0f442fe6535a48aca7af3abe7fd4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\afee0f442fe6535a48aca7af3abe7fd4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\328630e22a2ca9ca529c68b9c86b66b4\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\328630e22a2ca9ca529c68b9c86b66b4\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1ce6ea79d92b4dc63ed3ea9ebb5e565d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1ce6ea79d92b4dc63ed3ea9ebb5e565d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5dfa2f68eb264b09c1b2821c8c1081cf\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5dfa2f68eb264b09c1b2821c8c1081cf\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c625205ef51fe42dbf7fd0c4a8645998\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c625205ef51fe42dbf7fd0c4a8645998\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d3db6f55b6e65ea00e45e240ede6b63f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d3db6f55b6e65ea00e45e240ede6b63f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\46be73304b9bab5c83c4f222542d5e53\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\46be73304b9bab5c83c4f222542d5e53\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\6504f3114b932b2e7b6db4724ab44de6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\6504f3114b932b2e7b6db4724ab44de6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7de36a96b219421a4c3f4eb637f9156e\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7de36a96b219421a4c3f4eb637f9156e\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from [:StickyListHeaders] C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:9-38
+	android:minSdkVersion
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\UIAppTemplate\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9f5869bfc0b63e579f8c2078ebefdbda\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9f5869bfc0b63e579f8c2078ebefdbda\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9c0d934ed9ab4a91703fe9eacc0ab89\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9c0d934ed9ab4a91703fe9eacc0ab89\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\328630e22a2ca9ca529c68b9c86b66b4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\328630e22a2ca9ca529c68b9c86b66b4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1ce6ea79d92b4dc63ed3ea9ebb5e565d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1ce6ea79d92b4dc63ed3ea9ebb5e565d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5dfa2f68eb264b09c1b2821c8c1081cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5dfa2f68eb264b09c1b2821c8c1081cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c625205ef51fe42dbf7fd0c4a8645998\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\c625205ef51fe42dbf7fd0c4a8645998\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d3db6f55b6e65ea00e45e240ede6b63f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d3db6f55b6e65ea00e45e240ede6b63f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\46be73304b9bab5c83c4f222542d5e53\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\46be73304b9bab5c83c4f222542d5e53\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\101b6e61b6a0fc3e674c6a1a2e68d826\AndroidManifest.xml:27:13-51
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\837484139eee5c0c58ae2e16c4947951\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\837484139eee5c0c58ae2e16c4947951\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\837484139eee5c0c58ae2e16c4947951\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6288a336006984f2c0de021ec5c2d141\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\e63c9e35e0af1d8c9c990053d603aec3\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\96ab4c3bf56bfeec717e94f959efe505\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:29:9-63
+permission#com.csform.android.uiapptemplate.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:32:22-76
+uses-permission#com.csform.android.uiapptemplate.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.csform.android.uiapptemplate
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:48:27-58
+category#com.csform.android.uiapptemplate
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\52257b1b6d80a5d52986e83b5aff7804\AndroidManifest.xml:60:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f33bc6a5068dcf76bf38cfc076fd67ba\AndroidManifest.xml:10:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\7d42b14e5446daeb3de0a3fc5ebc1086\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\afee0f442fe6535a48aca7af3abe7fd4\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\afee0f442fe6535a48aca7af3abe7fd4\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\afee0f442fe6535a48aca7af3abe7fd4\AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7de36a96b219421a4c3f4eb637f9156e\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7de36a96b219421a4c3f4eb637f9156e\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Fabio\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7de36a96b219421a4c3f4eb637f9156e\AndroidManifest.xml:26:13-58

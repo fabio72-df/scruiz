@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".RankingActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <!-- BARRA SUPERIOR -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_barra_sup"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar" >
+
+        <!-- ****** TABELA ****** -->
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:layout_margin="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
+
+            <!-- Linha 1 com uma coluna-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/tituloPrincipal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="3"
+                    android:background="#00FF00"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 1º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk1"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="#ffcc00"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="1º"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk11"
+                    android:layout_height="40dp"
+                    android:layout_weight="5"
+                    android:background="#ffcc00"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 2º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk2"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="#c0c0c0"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="2º Lugar"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk22"
+                    android:layout_height="40dp"
+                    android:layout_weight="5"
+                    android:background="#c0c0c0"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 3º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk3"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="#cd7f32"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="3º Lugar"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk33"
+                    android:layout_height="40dp"
+                    android:layout_weight="5"
+                    android:background="#cd7f32"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 4º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk4"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="4º Lugar"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk44"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 5º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk5"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="5º Lugar"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk55"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 6º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk6"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="6º Lugar"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk66"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 7º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk7"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="7º Lugar"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk77"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 8º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk8"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="8º Lugar"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk88"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 9º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk9"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="9º Lugar"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk99"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+            <!-- 10º LUGAR-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textViewRk10"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text="10º Lugar"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textViewRk1010"
+                    android:layout_weight="2"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="4dip"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!-- Linha de separação -->
+            <TableRow
+                android:id="@+id/trsep10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="2"
+                    android:background="@color/primaryTextColor" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

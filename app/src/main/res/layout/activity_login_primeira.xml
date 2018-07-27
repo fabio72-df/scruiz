@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_media_gradient_background"
+    tools:context=".SubClasses.LoginPrimeiraActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarLoginPrimeira"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_barra_sup"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title="Scruiz - Login"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="58dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarLoginPrimeira">
+
+        <Button
+            android:id="@+id/email_sign_in_google"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/common_google_signin_btn_text_dark"
+            android:text="@string/action_sign_in_google"
+            android:textAllCaps="false"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/email_sign_in_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="58dp"
+            android:background="@android:drawable/ic_dialog_email"
+            android:text="@string/action_sign_in_email"
+            android:textAllCaps="false"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/email_sign_in_anonimo"
+            android:layout_marginTop="58dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="anônimo"
+            android:textAllCaps="false"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

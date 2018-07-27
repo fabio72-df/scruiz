@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AnimatedExpandableListView/AnimatedExpandableListView.iml" filepath="$PROJECT_DIR$/../AnimatedExpandableListView/AnimatedExpandableListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CircularProgressButton/CircularProgressButton.iml" filepath="$PROJECT_DIR$/../CircularProgressButton/CircularProgressButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FloatLabeledTextField/FloatLabeledTextField.iml" filepath="$PROJECT_DIR$/../FloatLabeledTextField/FloatLabeledTextField.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KenBurnsView/KenBurnsView.iml" filepath="$PROJECT_DIR$/../KenBurnsView/KenBurnsView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ListViewAnimations-core/ListViewAnimations-core.iml" filepath="$PROJECT_DIR$/../ListViewAnimations-core/ListViewAnimations-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ListViewAnimations-core-slh/ListViewAnimations-core-slh.iml" filepath="$PROJECT_DIR$/../ListViewAnimations-core-slh/ListViewAnimations-core-slh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ListViewAnimations-manipulation/ListViewAnimations-manipulation.iml" filepath="$PROJECT_DIR$/../ListViewAnimations-manipulation/ListViewAnimations-manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MaterialRippleLayout/MaterialRippleLayout.iml" filepath="$PROJECT_DIR$/../MaterialRippleLayout/MaterialRippleLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NotBoringActionBar/NotBoringActionBar.iml" filepath="$PROJECT_DIR$/../NotBoringActionBar/NotBoringActionBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ProgressWheel/ProgressWheel.iml" filepath="$PROJECT_DIR$/../ProgressWheel/ProgressWheel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PullZoomView/PullZoomView.iml" filepath="$PROJECT_DIR$/../PullZoomView/PullZoomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ShapeImageView/ShapeImageView.iml" filepath="$PROJECT_DIR$/../ShapeImageView/ShapeImageView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../StickyListHeaders/StickyListHeaders.iml" filepath="$PROJECT_DIR$/../StickyListHeaders/StickyListHeaders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UIAppTemplate.iml" filepath="$PROJECT_DIR$/UIAppTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android - AS.iml" filepath="$PROJECT_DIR$/../android - AS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-appcompat/android-support-v7-appcompat.iml" filepath="$PROJECT_DIR$/../android-support-v7-appcompat/android-support-v7-appcompat.iml" />
+    </modules>
+  </component>
+</project>

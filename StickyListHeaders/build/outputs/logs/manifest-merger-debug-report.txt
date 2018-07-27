@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+uses-sdk
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+		ADDED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml
+		INJECTED from C:\Users\Fabio\Desktop\ANDROID\Curso - Android Accelerate\codecanyon-9858746-material-design-ui-android-template-app\android - AS\StickyListHeaders\AndroidManifest.xml

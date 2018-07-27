@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "233710108913",
+    "firebase_url": "https://scruiz-6d95b.firebaseio.com",
+    "project_id": "scruiz-6d95b",
+    "storage_bucket": "scruiz-6d95b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233710108913:android:3e5b1b5738f520ea",
+        "android_client_info": {
+          "package_name": "com.cursoandroid.firebaseapp.scruiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233710108913-bcle6a97frrl40vp1bdgn7ta2gjnnmgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursoandroid.firebaseapp.scruiz",
+            "certificate_hash": "17dfce6ce6107a72c0ecbef0df2437690c6def14"
+          }
+        },
+        {
+          "client_id": "233710108913-oa8btsf40ahuetoe3chvke2ck2fqqm4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmPMV4QU8Zrzo2DmouiQjrTL82UkBn_3A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233710108913-oa8btsf40ahuetoe3chvke2ck2fqqm4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

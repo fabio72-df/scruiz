@@ -1,0 +1,4 @@
+#Sun Jun 24 14:05:31 BRT 2018
+base.0=C\:\\Users\\Fabio\\Desktop\\ANDROID\\Curso - Android Accelerate\\codecanyon-9858746-material-design-ui-android-template-app\\android - AS\\UIAppTemplate\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
