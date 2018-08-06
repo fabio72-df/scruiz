@@ -36,8 +36,7 @@
             android:layout_marginRight="16dp"
             android:text="e-mail"
             android:textColor="@android:color/black"
-            android:textSize="12sp"
-            app:typeface="robotoLight" />
+            android:textSize="12sp" />
 
         <EditText
             android:id="@+id/login_page_social_login_text"
@@ -79,8 +78,7 @@
             android:layout_marginRight="16dp"
             android:text="senha"
             android:textColor="@android:color/black"
-            android:textSize="12sp"
-            app:typeface="robotoLight" />
+            android:textSize="12sp" />
 
         <EditText
             android:id="@+id/login_page_social_login_password"
@@ -127,8 +125,7 @@
             android:paddingTop="12dp"
             android:text="login"
             android:textColor="@android:color/black"
-            android:textSize="14sp"
-            app:typeface="robotoMedium" />
+            android:textSize="14sp" />
 
         <!-- <com.csform.android.uiapptemplate.font.RobotoTextView -->
         <TextView
@@ -143,8 +140,7 @@
             android:paddingTop="12dp"
             android:text="cadastrar-me"
             android:textColor="@android:color/black"
-            android:textSize="14sp"
-            app:typeface="robotoMedium" />
+            android:textSize="14sp"/>
     </LinearLayout>
 
     <!-- <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView -->
@@ -175,8 +171,7 @@
             android:paddingTop="12dp"
             android:text="Logar como 'anônimo'"
             android:textColor="@android:color/black"
-            android:textSize="14sp"
-            app:typeface="robotoMedium" />
+            android:textSize="14sp" />
     </LinearLayout>
 
 </LinearLayout>

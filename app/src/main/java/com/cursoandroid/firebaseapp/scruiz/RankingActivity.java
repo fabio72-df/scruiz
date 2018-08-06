@@ -1,12 +1,10 @@
 package com.cursoandroid.firebaseapp.scruiz;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TableRow;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -16,7 +14,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
 import java.util.ArrayList;
-import java.util.EventListener;
 
 public class RankingActivity extends BaseActivity {
 
@@ -32,9 +29,12 @@ public class RankingActivity extends BaseActivity {
 
     private UsuariosRk mClasseUsuariosRk;
 
-    public TextView txtRanking1, txtRanking2, txtRanking3, txtRanking4, txtRanking5, txtRanking6, txtRanking7, txtRanking8, txtRanking9, txtRanking10;
-    public TextView txtRanking11, txtRanking22, txtRanking33, txtRanking44, txtRanking55, txtRanking66, txtRanking77, txtRanking88, txtRanking99, txtRanking1010;
-    public TableRow trsep1, trsep2, trsep3, trsep4, trsep5, trsep6, trsep7, trsep8, trsep9, trsep10;
+    public TextView txtRanking1, txtRanking2, txtRanking3, txtRanking4, txtRanking5,
+                    txtRanking6, txtRanking7, txtRanking8, txtRanking9, txtRanking10;
+    public TextView txtRanking11, txtRanking22, txtRanking33, txtRanking44, txtRanking55,
+                    txtRanking66, txtRanking77, txtRanking88, txtRanking99, txtRanking1010;
+    public TableRow trsep1, trsep2, trsep3, trsep4, trsep5,
+                    trsep6, trsep7, trsep8, trsep9, trsep10;
 
     // TODO VER SE PRECISA DE idxTab
     // Working
@@ -116,7 +116,6 @@ public class RankingActivity extends BaseActivity {
         trsep9.setVisibility(View.INVISIBLE);
         trsep10.setVisibility(View.INVISIBLE);
 
-
         showProgressDialog();
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
@@ -128,9 +127,12 @@ public class RankingActivity extends BaseActivity {
 
                 mClasseUsuariosRk = dataSnapshot.getValue(UsuariosRk.class);
 
-                if (!mClasseUsuariosRk.getNmUsuario().equals("") && mClasseUsuariosRk.getPontosUsuario() < 1000000) {
+                if (!mClasseUsuariosRk.getNmUsuario().equals("") &&
+                        mClasseUsuariosRk.getPontosUsuario() < 1000000)
+                {
                     if (mClasseUsuariosRk.getPontosUsuario() != null) {
                         nomes[idxTab] = mClasseUsuariosRk.getNmUsuario();
+                        nomes[idxTab] = nomeCurto(nomes[idxTab]);
                     } else {
                         nomes[idxTab] = "";
                     }
@@ -199,7 +201,7 @@ public class RankingActivity extends BaseActivity {
         cntRanking = 0;
 
         if (nomes[0] != null) {
-            gdaText = "1º - " + nomes[0];
+            gdaText = "| 1º| " + nomes[0];
             txtRanking1.setText(gdaText);
             gdaText = Integer.toString(pontos[0]);
             txtRanking11.setText(gdaText);
@@ -209,7 +211,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[1] != null) {
-            gdaText = "2º - " + nomes[1];
+            gdaText = "| 2º| " + nomes[1];
             txtRanking2.setText(gdaText);
             gdaText = Integer.toString(pontos[1]);
             txtRanking22.setText(gdaText);
@@ -219,7 +221,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[2] != null) {
-            gdaText = "3º - " + nomes[2];
+            gdaText = "| 3º| " + nomes[2];
             txtRanking3.setText(gdaText);
             gdaText = Integer.toString(pontos[2]);
             txtRanking33.setText(gdaText);
@@ -229,7 +231,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[3] != null) {
-            gdaText = "4º - " + nomes[3];
+            gdaText = "| 4º| " + nomes[3];
             txtRanking4.setText(gdaText);
             gdaText = Integer.toString(pontos[3]);
             txtRanking44.setText(gdaText);
@@ -239,7 +241,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[4] != null) {
-            gdaText = "5º - " + nomes[4];
+            gdaText = "| 5º| " + nomes[4];
             txtRanking5.setText(gdaText);
             gdaText = Integer.toString(pontos[4]);
             txtRanking55.setText(gdaText);
@@ -249,7 +251,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[5] != null) {
-            gdaText = "6º - " + nomes[5];
+            gdaText = "| 6º| " + nomes[5];
             txtRanking6.setText(gdaText);
             gdaText = Integer.toString(pontos[5]);
             txtRanking66.setText(gdaText);
@@ -259,7 +261,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[6] != null) {
-            gdaText = "7º - " + nomes[6];
+            gdaText = "| 7º| " + nomes[6];
             txtRanking7.setText(gdaText);
             gdaText = Integer.toString(pontos[6]);
             txtRanking77.setText(gdaText);
@@ -269,7 +271,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[7] != null) {
-            gdaText = "8º - " + nomes[7];
+            gdaText = "| 8º| " + nomes[7];
             txtRanking8.setText(gdaText);
             gdaText = Integer.toString(pontos[7]);
             txtRanking88.setText(gdaText);
@@ -279,7 +281,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[8] != null) {
-            gdaText = "9º - " + nomes[8];
+            gdaText = "| 9º| " + nomes[8];
             txtRanking9.setText(gdaText);
             gdaText = Integer.toString(pontos[8]);
             txtRanking99.setText(gdaText);
@@ -289,7 +291,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
         if (nomes[9] != null) {
-            gdaText = "10º - " + nomes[9];
+            gdaText = "|10º| " + nomes[9];
             txtRanking10.setText(gdaText);
             gdaText = Integer.toString(pontos[9]);
             txtRanking1010.setText(gdaText);
@@ -302,6 +304,26 @@ public class RankingActivity extends BaseActivity {
         gdaText = "TOP " + cntRanking;
         TextView tituloPpl = findViewById(R.id.tituloPrincipal);
         tituloPpl.setText(gdaText);
+    }
+
+    private String nomeCurto (String nome){
+
+        boolean fim = true;
+        String nmCurto = "", letra;
+
+        for(int i=0;fim;i++){
+            if (i<nome.length()){
+                letra  = nome.substring(i,i+1);
+                if (!letra.equals("@")){
+                    nmCurto = nmCurto + letra;
+                }else{
+                    fim = false;
+                }
+            }else{
+                fim = false;
+            }
+        }
+        return nmCurto;
     }
 
 ////////////////

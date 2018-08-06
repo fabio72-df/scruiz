@@ -39,7 +39,9 @@ public class NumeroAleaorio {
 
         while (true) {
             if (repeat_list.contains(numero)) {
-                numero = nrAleatorio.nextInt(nrMax) + 1;
+                // TODO - Alterado nova versao com Array de questões
+                //numero = nrAleatorio.nextInt(nrMax) + 1;
+                numero = nrAleatorio.nextInt(nrMax);
             } else {
                 repeat_list.add(numero);
                 break;

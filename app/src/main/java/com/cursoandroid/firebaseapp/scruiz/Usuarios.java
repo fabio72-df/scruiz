@@ -5,10 +5,10 @@ public class Usuarios {
     private String nmUsuario;
     private int pontosUsuario;
 
-    private Usuarios() {
+    public Usuarios() {
     }
 
-    public Usuarios(String nmUsuario, int ptosUsuario) {
+    public Usuarios(String nmUsuario, Integer ptosUsuario) {
         this.nmUsuario = nmUsuario;
         this.pontosUsuario = ptosUsuario;
     }

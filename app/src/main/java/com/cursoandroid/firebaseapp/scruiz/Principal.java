@@ -22,6 +22,7 @@ public class Principal extends AppCompatActivity {
     private FirebaseAuth mAuth = FirebaseAuth.getInstance();
     private FirebaseUser mUser;
 
+    // MENU PRINCIPAL - BARRA INFERIOR
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
@@ -30,8 +31,10 @@ public class Principal extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.iniciar_teste:
                     if (verificaLog()) {
-                        startActivity(new Intent(Principal
-                                .this, IniciarTeste.class));
+                        Intent i = new Intent(Principal.this, IniciarTeste.class);
+                        i.putExtra("userEmail", mUser.getEmail());
+                        i.putExtra("userId", mUser.getUid());
+                        startActivity(i);
                     } else {
                         startActivity(new Intent(Principal
                                 .this, LoginPrimeiraActivity.class));
@@ -39,7 +42,6 @@ public class Principal extends AppCompatActivity {
                     return true;
                 case R.id.login:
                     // TODO
-                    //startActivity(new Intent(Principal.this, LoginActivity.class));
                     startActivity(new Intent(Principal
                             .this, LoginPrimeiraActivity.class));
                     return true;

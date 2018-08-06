@@ -56,7 +56,9 @@
                 android:value=".Principal" />
         </activity>
         <activity android:name=".SubClasses.Login2" />
-        <activity android:name=".SubClasses.LoginPrimeiraActivity"></activity>
+        <activity android:name=".SubClasses.LoginPrimeiraActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".SubClasses.Login1"></activity>
     </application>
 
 </manifest>
