@@ -1,4 +1,4 @@
-package com.cursoandroid.firebaseapp.scruiz.SubClasses;
+package com.cursoandroid.firebaseapp.scruiz.subclasses;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -31,19 +31,24 @@ public class LoginPrimeiraActivity extends AppCompatActivity implements
 
     @Override
     public void onClick(View v) {
+
         int i = v.getId();
-        // GOOGLE
+
+        // GOOGLE [[[ Login1 ]]]
         if (i == R.id.email_sign_in_google) {
             //Toast.makeText(LoginPrimeiraActivity.this,"Em implementação", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(LoginPrimeiraActivity.this, Login1.class);
             startActivity(intent);
-        // E-MAIL
+
+        // E-MAIL [[[ Login2 ]]]
         }else if(i == R.id.email_sign_in_email){
             Intent intent = new Intent(LoginPrimeiraActivity.this, Login2.class);
             intent.putExtra("tipo", 0);
             startActivity(intent);
+
         // ANÔNIMO
         }else if(i == R.id.email_sign_in_anonimo){
+            // Exibe mensagem de alerta. Se resposta positiva -> Login2 com tipo = 1
             alertar();
         }
     }

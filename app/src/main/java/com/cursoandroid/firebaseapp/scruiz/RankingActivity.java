@@ -301,7 +301,7 @@ public class RankingActivity extends BaseActivity {
             cntRanking++;
         }
 
-        gdaText = "TOP " + cntRanking;
+        gdaText = "Scruiz - TOP " + cntRanking;
         TextView tituloPpl = findViewById(R.id.tituloPrincipal);
         tituloPpl.setText(gdaText);
     }

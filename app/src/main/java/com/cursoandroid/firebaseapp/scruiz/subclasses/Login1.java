@@ -1,4 +1,4 @@
-package com.cursoandroid.firebaseapp.scruiz.SubClasses;
+package com.cursoandroid.firebaseapp.scruiz.subclasses;
 
 import android.content.Intent;
 import android.os.Bundle;

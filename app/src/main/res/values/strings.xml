@@ -4,10 +4,11 @@
     <string name="title_principal1">Scrum</string>
     <string name="title_principal2">Teste\nseus\nConhecimentos</string>
     <string name="title_iniciar_teste">Iniciar\nTeste</string>
-    <string name="title_login">Login/Logout</string>
+    <string name="title_login">Login</string>
     <string name="title_sobre">Sobre</string>
+    <string name="title_logout">Logout</string>
     <string name="title_ranking">Ranking</string>
-    <string name="title_activity_login">SCRUIZ - Login / Logout</string>
+    <string name="title_activity_login">SCRUIZ - Login</string>
 
     <string name="title_questao_nr">Questão nº:</string>
 
@@ -20,7 +21,7 @@
     <string name="action_sign_out">Logout</string>
     <string name="action_sign_in_cadastrar">Cadastrar-me</string>
     <string name="action_sign_in_google">Google</string>
-    <string name="action_sign_in_email">E-mail</string>
+    <string name="action_sign_in_email">E-m@il</string>
     <string name="action_sign_in_esqueci">Esqueci a senha</string>
     <string name="action_responder">Responder</string>
     <string name="action_proxima">Próxima</string>

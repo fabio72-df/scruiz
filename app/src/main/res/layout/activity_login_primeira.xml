@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_media_gradient_background"
-    tools:context=".SubClasses.LoginPrimeiraActivity">
+    tools:context=".subclasses.LoginPrimeiraActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbarLoginPrimeira"
@@ -22,19 +22,15 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="58dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbarLoginPrimeira">
 
         <Button
             android:id="@+id/email_sign_in_google"
-            android:layout_width="180dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/common_google_signin_btn_text_dark"
@@ -44,7 +40,7 @@
 
         <Button
             android:id="@+id/email_sign_in_email"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="58dp"
@@ -55,11 +51,12 @@
 
         <Button
             android:id="@+id/email_sign_in_anonimo"
-            android:layout_marginTop="58dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:layout_height="42dp"
             android:layout_gravity="center"
+            android:layout_marginTop="58dp"
             android:text="anônimo"
+            android:background="@drawable/anonimo_banner"
             android:textAllCaps="false"
             android:textStyle="normal" />
 

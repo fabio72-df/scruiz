@@ -9,7 +9,7 @@
     tools:context=".Principal">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/my_toolbar"
+        android:id="@+id/my_toolbar_ppl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/altura_barra_sup"
         android:background="@color/colorPrimary"
@@ -66,6 +66,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/message2"
         app:srcCompat="@drawable/trabalhoequipe" />
+
+    <TextView
+        android:id="@+id/tvLogado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"

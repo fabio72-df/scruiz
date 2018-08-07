@@ -1,4 +1,4 @@
-package com.cursoandroid.firebaseapp.scruiz.SubClasses;
+package com.cursoandroid.firebaseapp.scruiz.subclasses;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -39,17 +39,24 @@ public class Login2 extends BaseActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login2);
 
         // [START initialize_auth]
         mAuth = FirebaseAuth.getInstance();
         // [END initialize_auth]
 
-        // Informação recebida de LoginPrimeiraActivity: 0 = normal (email) | 1 = "Login anonimo"
+        // Informação recebida de LoginPrimeiraActivity:
+        // 0 = normal (email)
+        // 1 = "Login anonimo"
         Bundle extra = getIntent().getExtras();
-        tipoLogin = extra.getInt("tipo");
+
+        try {
+            tipoLogin = extra.getInt("tipo");
+        } catch (NullPointerException ex) {
+            tipoLogin = 0;
+        }
 
         if (tipoLogin == 0) {
-            setContentView(R.layout.activity_login2);
             //BARRA SUPERIOR
             Toolbar myToolbar = findViewById(R.id.my_toolbar);
             //setActionBar(myToolbar);
@@ -73,11 +80,12 @@ public class Login2 extends BaseActivity implements View.OnClickListener {
     }
 
     protected void signInNormal() {
+
         EditText loginText;
         EditText passText;
 
-        loginText = (EditText) findViewById(R.id.login_page_social_login_text);
-        passText = (EditText) findViewById(R.id.login_page_social_login_password);
+        loginText = findViewById(R.id.login_page_social_login_text);
+        passText = findViewById(R.id.login_page_social_login_password);
 
         Typeface sRobotoThin = Typeface.createFromAsset(getAssets(),
                 "font/roboto_thin.ttf");
@@ -88,9 +96,9 @@ public class Login2 extends BaseActivity implements View.OnClickListener {
 
         TextView login, register, skip;
 
-        login = (TextView) findViewById(R.id.login);
-        register = (TextView) findViewById(R.id.register);
-        skip = (TextView) findViewById(R.id.skip);
+        login = findViewById(R.id.login);
+        register = findViewById(R.id.register);
+        skip = findViewById(R.id.skip);
 
         login.setOnClickListener(this);
         register.setOnClickListener(this);
@@ -117,8 +125,10 @@ public class Login2 extends BaseActivity implements View.OnClickListener {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "LOGIN: Sucesso!");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Toast.makeText(Login2.this, "Login com sucesso.", Toast.LENGTH_LONG).show();
-                            startActivity(new Intent(Login2.this, IniciarTeste.class));
+                            Intent i = new Intent(Login2.this, IniciarTeste.class);
+                            i.putExtra("userEmail", user.getEmail());
+                            i.putExtra("userId", user.getUid());
+                            startActivity(i);
                             //
                         } else {
                             // If sign in fails, display a message to the user.
