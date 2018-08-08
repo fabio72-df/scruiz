@@ -48,7 +48,9 @@ public class LoginPrimeiraActivity extends AppCompatActivity implements
 
         // ANÔNIMO
         }else if(i == R.id.email_sign_in_anonimo){
-            // Exibe mensagem de alerta. Se resposta positiva -> Login2 com tipo = 1
+            // Exibe mensagem de aler
+            //
+            // ta. Se resposta positiva -> Login2 com tipo = 1
             alertar();
         }
     }
