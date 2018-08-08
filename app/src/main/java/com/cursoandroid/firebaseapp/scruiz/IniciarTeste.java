@@ -129,7 +129,7 @@ public class IniciarTeste extends BaseActivity {
         // Usuário (boas vindas)
         Intent i = getIntent();
         String userEmail = i.getStringExtra("userEmail");
-        String gdaTxt = "Olá";
+        String gdaTxt = "Olá ";
         if (!userEmail.equals(USUARIO_MASTER)) {
             gdaTxt = gdaTxt + nomeCurto(userEmail);
         }

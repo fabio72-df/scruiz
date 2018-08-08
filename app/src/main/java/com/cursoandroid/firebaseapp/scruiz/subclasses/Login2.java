@@ -84,8 +84,8 @@ public class Login2 extends BaseActivity implements View.OnClickListener {
         EditText loginText;
         EditText passText;
 
-        loginText = findViewById(R.id.login_page_social_login_text);
-        passText = findViewById(R.id.login_page_social_login_password);
+        loginText = findViewById(R.id.email_login_text);
+        passText = findViewById(R.id.senha_login_text);
 
         Typeface sRobotoThin = Typeface.createFromAsset(getAssets(),
                 "font/roboto_thin.ttf");
@@ -98,18 +98,27 @@ public class Login2 extends BaseActivity implements View.OnClickListener {
 
         login = findViewById(R.id.login);
         register = findViewById(R.id.register);
-        skip = findViewById(R.id.skip);
 
         login.setOnClickListener(this);
         register.setOnClickListener(this);
-        skip.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
         if (v instanceof TextView) {
             TextView tv = (TextView) v;
-            Toast.makeText(this, tv.getText(), Toast.LENGTH_SHORT).show();
+            switch (tv.getId()) {
+                case R.id.login:
+                    Toast.makeText(this, "LOGIN", Toast.LENGTH_SHORT).show();
+                    TextView emailLogin = findViewById(R.id.email_login_text);
+                    TextView senhaLogin = findViewById(R.id.senha_login_text);
+                    signIn(emailLogin.getText().toString(),senhaLogin.getText().toString());
+                    break;
+                case R.id.register:
+                    Toast.makeText(this, "CADASTRO", Toast.LENGTH_SHORT).show();
+                    break;
+            }
         }
     }
 

@@ -84,21 +84,9 @@
         android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:addStatesFromChildren="false"
-        android:animateLayoutChanges="false"
-        android:duplicateParentState="true"
-        android:focusableInTouchMode="false"
-        android:hapticFeedbackEnabled="false"
-        android:isScrollContainer="false"
-        android:keepScreenOn="false"
-        android:longClickable="false"
-        android:measureAllChildren="false"
         app:itemBackground="@android:color/darker_gray"
         app:itemTextColor="@color/common_google_signin_btn_text_dark_focused"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/navigation" />
 
 </android.support.constraint.ConstraintLayout>

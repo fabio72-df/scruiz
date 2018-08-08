@@ -22,12 +22,14 @@ import com.google.firebase.auth.FirebaseUser;
 public class Principal extends AppCompatActivity {
 
     private static final String TAG = "Principal";
+    private static final String USUARIO_SCRUIZ = "scruiz@scruiz.br";
     private String msgLogado;
 
     private FirebaseAuth mAuth = FirebaseAuth.getInstance();
     private FirebaseUser mUser = mAuth.getCurrentUser();
 
-    TextView tvLogado;
+    private TextView tvLogado;
+    private String gdaText;
 
     // MENU PRINCIPAL - BARRA INFERIOR
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -87,7 +89,18 @@ public class Principal extends AppCompatActivity {
 
         tvLogado = findViewById(R.id.tvLogado);
         if (mUser != null){
-            tvLogado.setText("LOGADO");
+            try{
+                gdaText = mUser.getEmail();
+                if (gdaText.equals(USUARIO_SCRUIZ)){
+                    gdaText = " [anônimo]";
+                }else{
+                    gdaText = " [" + gdaText + "]";
+                }
+            }catch (NullPointerException exc){
+                gdaText = "";
+            }
+            gdaText = "LOGADO" + gdaText;
+            tvLogado.setText(gdaText);
         }else{
             tvLogado.setText("off-line");
         }
