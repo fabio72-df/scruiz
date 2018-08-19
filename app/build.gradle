@@ -37,6 +37,9 @@ dependencies {
     // Google
     implementation 'com.google.android.gms:play-services-auth:15.0.1'
     implementation 'org.jetbrains:annotations-java5:15.0'
+
+    // KenBurns - GitHub = https://github.com/flavioarfaria/KenBurnsView.git
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
 }
 // Firebase
 apply plugin: 'com.google.gms.google-services'

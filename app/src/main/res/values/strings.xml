@@ -9,8 +9,11 @@
     <string name="title_logout">Logout</string>
     <string name="title_ranking">Ranking</string>
     <string name="title_activity_login">SCRUIZ - Login</string>
-
     <string name="title_questao_nr">Questão nº:</string>
+
+    <!-- ProgressBar -->
+    <string name="pronto">Pronto!</string>
+    <string name="carregando">Atualizando&#8230;Aguarde!</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
